@@ -1,6 +1,9 @@
 # '''
 # Linked List hash table key/value pair
 # '''
+
+# Hash Collision - when a key hashes to the same value
+# Hash functions are psuedo random 
 class LinkedPair:
     def __init__(self, key, value):
         self.key = key
@@ -47,6 +50,7 @@ class HashTable:
         '''
         Store the value with the given key.
 
+        # Print a warning
         Hash collisions should be handled with Linked List Chaining.
 
         Fill this in.
@@ -82,6 +86,7 @@ class HashTable:
         Doubles the capacity of the hash table and
         rehash all key/value pairs.
 
+        # Hash table is dynamice array
         Fill this in.
         '''
         pass
